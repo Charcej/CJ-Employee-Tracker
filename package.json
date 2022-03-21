@@ -1,5 +1,31 @@
 {
+  "name": "cj-employee_tracker",
+  "version": "1.0.0",
+  "description": "An application for managing a company's employees from the command line.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "watch": "nodemon ./server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charcej/CJ-Employee-Tracker"
+  },
+  "author": "Charles Johnston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Charcej/CJ-Employee-Tracker/issues"
+  },
+  "homepage": "https://charcej.github.io/CJ-Employee-Tracker/",
   "dependencies": {
-    "eslint": "^8.11.0"
+    "cfonts": "^2.4.5",
+    "console.table": "^0.10.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
